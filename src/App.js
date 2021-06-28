@@ -1,10 +1,11 @@
-
+import React from 'react';
 import './App.css';
+import Home from './containers/Home';
 
 function App() {
   return (
     <div className="App">
-      First Day of coding out blogging website :)
+      <Home />
     </div>
   );
 }
