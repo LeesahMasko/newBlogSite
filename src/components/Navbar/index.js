@@ -7,6 +7,12 @@ import './styles.css';
 **/
 
 const Navbar = (props) => {
+
+const submitSearch=(e)=>{
+    e.preventDefault();
+    alert('Searched');
+}
+
   return(
     <div className="navbar">
         <ul className="navbarMenu">
@@ -15,8 +21,10 @@ const Navbar = (props) => {
             <li><a href="#">Into the Body</a></li>
         </ul>
         <div className="search">
+            <form onSubmit={}>
             <input type="text" placeholder="Search"/>
-            <img src={require('../../assets/icons/search1.png')} alt="Search"/>
+            <img src='./search1.png' alt="Search"/>
+            </form>
 
 
         </div>
