@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './styles.css';
 
 /**
 * @author
@@ -8,7 +9,7 @@ import React from 'react'
 const Logo = (props) => {
   return(
     <div className="logo">
-    <a>Logo</a>
+    <a href="#">Logo</a>
     </div>
    )
 

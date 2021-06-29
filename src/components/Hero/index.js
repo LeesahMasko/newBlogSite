@@ -1,4 +1,6 @@
 import React from 'react';
+import Logo from '../Logo';
+import Navbar from '../Navbar';
 import Card from '../UI/Card';
 import './styles.css';
 
@@ -11,7 +13,10 @@ const Hero = (props) => {
   return(
     <div>
         <Card>
-            Lisa, my name is Lisa
+            <div style={{padding:'50px 0'}}>
+            <Logo />
+            </div>
+            <Navbar />
         </Card>
     </div>
    )
