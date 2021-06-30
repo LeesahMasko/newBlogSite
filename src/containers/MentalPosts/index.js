@@ -1,4 +1,6 @@
 import React from 'react';
+import Blog_Post from '../../components/BlogPost';
+import SideBar from '../../components/SideBar';
 import './styles.css';
 
 /**
@@ -8,7 +10,11 @@ import './styles.css';
 
 const MentalPosts = (props) => {
   return(
-    <div>MentalPosts</div>
+    <section className="container">
+        <Blog_Post />
+        <SideBar />
+
+    </section>
    )
 
  }

@@ -1,4 +1,6 @@
 import React from 'react';
+import Blog_Post from '../../components/BlogPost';
+import SideBar from '../../components/SideBar';
 import './styles.css';
 
 /**
@@ -8,7 +10,11 @@ import './styles.css';
 
 const FitnessPosts = (props) => {
   return(
-    <div>FitnessPosts</div>
+    <section className="container">
+        <Blog_Post />
+        <SideBar />
+
+    </section>
    )
 
  }

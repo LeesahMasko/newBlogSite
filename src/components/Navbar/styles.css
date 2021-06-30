@@ -34,7 +34,8 @@
 }
 
 .searchInput{
-  border-radius: 5px;
+  border: none;
+  border-radius: 3px;
   width: 0;
   transition: width 0.3s ease-in;
   background-color: rgb(222, 227, 227);

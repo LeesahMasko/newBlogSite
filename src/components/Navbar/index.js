@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { NavLink } from 'react-router-dom';
 import './styles.css';
 
 /**
@@ -26,9 +27,9 @@ const searchClass = search ? "searchInput active": "searchInput";
   return(
     <div className="navbar">
         <ul className="navbarMenu">
-            <li><a href="#">Into the Kitchen</a></li>
-            <li><a href="#">Into the Mind</a></li>
-            <li><a href="#">Into the Body</a></li>
+            <li><NavLink to="/kitchen-posts">Into the Kitchen</NavLink></li>
+            <li><NavLink to="/fitness-posts">Into the Mind</NavLink></li>
+            <li><NavLink to="/mental-posts">Into the Body</NavLink></li>
         </ul>
         <div className="search">
             <form onSubmit={submitSearch}>
@@ -45,3 +46,5 @@ const searchClass = search ? "searchInput active": "searchInput";
  }
 
 export default Navbar
+
+
