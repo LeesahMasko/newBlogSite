@@ -28,7 +28,23 @@
     color: #5f9ea0;
 }
 
-.search{
+.search form{
     display: flex;
     margin: 0 10px;
 }
+
+.searchInput{
+  border-radius: 5px;
+  width: 0;
+  transition: width 0.3s ease-in;
+  background-color: rgb(222, 227, 227);
+}
+
+.searchInput.active{
+    width: 150px;
+
+}
+
+.searchInput:focus{
+    outline: none;
+ }
