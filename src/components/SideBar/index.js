@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from '../UI/Card';
 import './styles.css'
 
 /**
@@ -8,7 +9,9 @@ import './styles.css'
 
 const SideBar = (props) => {
   return(
-    <div>SideBar</div>
+    <Card style={{width: "27%"}}>
+      SideBar Info
+    </Card>
    )
 
  }

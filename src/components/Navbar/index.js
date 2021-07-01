@@ -28,8 +28,8 @@ const searchClass = search ? "searchInput active": "searchInput";
     <div className="navbar">
         <ul className="navbarMenu">
             <li><NavLink to="/kitchen-posts">Into the Kitchen</NavLink></li>
-            <li><NavLink to="/fitness-posts">Into the Mind</NavLink></li>
-            <li><NavLink to="/mental-posts">Into the Body</NavLink></li>
+            <li><NavLink to="/mental-posts">Into the Mind</NavLink></li>
+            <li><NavLink to="/fitness-posts">Into the Body</NavLink></li>
         </ul>
         <div className="search">
             <form onSubmit={submitSearch}>

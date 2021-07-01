@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../UI/Card';
 import './styles.css';
 
 /**
@@ -8,7 +9,9 @@ import './styles.css';
 
 const Blog_Post = (props) => {
   return(
-    <div>Blog_Post</div>
+    <Card style={{width: "70%"}}>
+      My first blog post
+    </Card>
    )
 
  }

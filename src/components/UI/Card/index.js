@@ -9,7 +9,7 @@ import './styles.css';
 const Card
  = (props) => {
   return(
-    <div className="card" > {props.children} </div>
+    <div className="card" {...props}> {props.children} </div>
    )
 
  }
