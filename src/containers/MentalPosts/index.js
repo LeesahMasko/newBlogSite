@@ -13,13 +13,13 @@ const MentalPosts = (props) => {
   return(
     <div className="container">
     <Card style={{width: "70%"}}>
-        <div className="blogHeader">
+        <div className="blogHeaderMen">
       <span className="blogCategory">Mindfulness blog post</span>
       <h1 className="postTitle">First Mindfulness blog post</h1>
       <span className="postByandDate"> posted on date</span>
       </div>
       <div className="postImageContainer">
-          <img className="mindfullnessImage" src='../../../BlogPostImages/Mindfulness.jpg' alt="cooking in the kitchen"/>
+          <img className="mindfullnessImage" src='../../../BlogPostImages/mental.jpg' alt="calm waters multi-colored skies"/>
       </div>
     </Card>
     <SideBar />

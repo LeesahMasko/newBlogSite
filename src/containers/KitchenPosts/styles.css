@@ -5,8 +5,9 @@
     margin: 20px 0;
 }
 
-.blogHeader{
+.blogHeaderKit{
   text-align: center;
+  background-color: #f5f3e6;
 }
 
 .blogCategory{
@@ -34,11 +35,14 @@
 
 .postImageContainer img{
     width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .postImageContainer kitchenImage{
     max-width: 100%;
     max-height: 100%;
+
 }
 
 

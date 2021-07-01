@@ -15,7 +15,7 @@ const KitchenPosts = (props) => {
 return(
     <div className="container">
     <Card style={{width: "70%"}}>
-        <div className="blogHeader">
+        <div className="blogHeaderKit">
       <span className="blogCategory">Kitchen blog post</span>
       <h1 className="postTitle">First kitchen blog post</h1>
       <span className="postByandDate"> posted on date</span>

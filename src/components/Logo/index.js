@@ -9,7 +9,7 @@ import './styles.css';
 const Logo = (props) => {
   return(
     <div className="logo">
-    <a href="#">Logo</a>
+    <img className="logoIcon" src='../../../BlogPostImages/Logo.png' alt="logo"/>
     </div>
    )
 

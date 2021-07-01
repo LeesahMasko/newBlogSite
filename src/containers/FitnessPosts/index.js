@@ -13,13 +13,13 @@ const FitnessPosts = (props) => {
   return(
     <div className="container">
     <Card style={{width: "70%"}}>
-        <div className="blogHeader">
+        <div className="blogHeaderFit">
       <span className="blogCategory">Fitness blog post</span>
       <h1 className="postTitle">First fitness blog post</h1>
       <span className="postByandDate"> posted on date</span>
       </div>
       <div className="postImageContainer">
-          <img className="fitnessImage" src='../../../BlogPostImages/Fitness.jpg' alt="cooking in the kitchen"/>
+          <img className="fitnessImage" src='../../../BlogPostImages/Fitness.jpg' alt="woman jogging"/>
       </div>
     </Card>
     <SideBar />
