@@ -34,9 +34,22 @@
 .cardBody h3{
     text-transform: uppercase;
     font-size: 18px;
+    font-weight: 400;
     box-sizing: border-box;
     letter-spacing: 1.5px;
     color: #565673;
+}
 
+.recentPost h3{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #565673;
+}
 
+.recentPost span{
+    font-size: 12px;
+    font-style:italic;
+
+    color: #565673;
 }

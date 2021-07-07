@@ -30,9 +30,15 @@ const SideBar = (props) => {
         </div>
     </Card>
 
-    <Card style={{marginBottom: '20px'}}>
+    <Card style={{marginBottom: '20px', padding: '20px', boxSizing: 'border-box'}}>
         <div className="sidebarHeader">
             <span>Recent Posts</span>
+        </div>
+        <div className="recentPosts">
+            <div className="recentPost">
+                <h3>Post Title</h3>
+                <span>posted on date</span>
+            </div>
         </div>
     </Card>
     </div>
