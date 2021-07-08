@@ -13,7 +13,7 @@ const Hero = (props) => {
   return(
     <div>
         <Card>
-            <div style={{padding:'50px 0'}}>
+            <div style={{padding:'10px 0'}}>
             <Logo />
             </div>
             <Navbar />

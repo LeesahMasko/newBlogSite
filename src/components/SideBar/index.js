@@ -39,6 +39,14 @@ const SideBar = (props) => {
                 <h3>Post Title</h3>
                 <span>posted on date</span>
             </div>
+            <div className="recentPost">
+                <h3>Post Title</h3>
+                <span>posted on date</span>
+            </div>
+            <div className="recentPost">
+                <h3>Post Title</h3>
+                <span>posted on date</span>
+            </div>
         </div>
     </Card>
     </div>

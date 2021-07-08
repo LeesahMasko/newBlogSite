@@ -21,6 +21,10 @@ const FitnessPosts = (props) => {
       <div className="postImageContainer">
           <img className="fitnessImage" src='../../../BlogPostImages/Fitness.jpg' alt="woman jogging"/>
       </div>
+      <div className="postContent">
+          <h3>Post Title</h3>
+          <p>Exercise is not to be skipped :)</p>
+      </div>
     </Card>
     <SideBar />
     </div>
