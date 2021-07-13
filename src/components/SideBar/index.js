@@ -27,6 +27,10 @@ const SideBar = (props) => {
     <Card style={{marginBottom: '20px', padding: '20px', boxSizing: 'border-box'}}>
         <div className="sidebarHeader">
             <span>Social Networks</span>
+
+            <div className="cardBody">
+            <p>Please follow us on social media</p>
+            </div>
         </div>
     </Card>
 
