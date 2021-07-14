@@ -45,7 +45,10 @@
     max-height: 100%;
 
 }
-
+.betweenPosts{
+    padding: 5px;
+    background-color: #6c6c6c;
+}
 
 
 

@@ -1,8 +1,11 @@
 import React from 'react';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Blog_Post from '../../components/BlogPost';
 import SideBar from '../../components/SideBar';
 import Card from '../../components/UI/Card';
 import './styles.css';
+import KitPost_1 from '../../data/KitchenPosts/kitPost_1';
+import KitPost_2 from '../../data/KitchenPosts/kitPost_2';
 
 
 /**
@@ -15,15 +18,18 @@ const KitchenPosts = (props) => {
 return(
     <div className="container">
     <Card style={{width: "70%"}}>
-        <div className="blogHeaderKit">
-      <span className="blogCategory">Kitchen blog post</span>
-      <h1 className="postTitle">First kitchen blog post</h1>
-      <span className="postByandDate"> posted on date</span>
-      </div>
-      <div className="postImageContainer">
-          <img className="kitchenImage" src='../../../BlogPostImages/kitchen.jpg' alt="cooking in the kitchen"/>
-      </div>
-    </Card>
+
+    <Router>
+      <Route path="/kitchen-posts" component={KitPost_1} />
+      <div className="betweenPosts"></div>
+      <Route path="/kitchen-posts" component={KitPost_2} />
+      </Router>
+      </Card>
+
+
+
+
+
     <SideBar />
     </div>
    )
