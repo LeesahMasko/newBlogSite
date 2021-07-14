@@ -21,6 +21,14 @@ function KitPost_1() {
       </p>
 
       <h3>A synopsis of my health and fitness path</h3>
+      <p>I was always scrawny growing up.  My family didn't eat healthy, per se... we ate frugally.  There were 6 kids in my family so dinners were often filled with the cheapest hamburger meat available.  We drank milk, ate bread, our cheese was always orange and pancakes were a staple.</p>
+      <p>We always had a vegetable at dinner.  Most the time there were prepared in such way that made them increasingly more unappetising than if you ate them just picked from the garden with dirt and bugs. (Think zucchini cooked in a pan with butter until it became green glop)</p>
+      <p>I was pretty skinny until I got to about 25 years old, then I slowly started to again some extra padding all over.</p>
+      <p>The weight crept on so slowly that I didn't really even notice it.  When I was about 35 I had one of those eye opening moments when I saw myself for what seemed like the first time.  I had come home to visit my family and we spent a couple days at the beach.  After the trip my sister had posted a few pictures and tagged me in them and I saw my bulkyness is full view!  I think I hadn't really noticed it before, but there it was.  After that trip I decided it was time to make some changes.</p>
+      <p>The first obligatory step... facing the scale.  I needed to see what my starting point was.</p>
+      <p>181 pounds.  A shocking number to read.</p>
+      <p>I calculated my BMI: 30.1 Then I looked at the BMI Categories..."Obesity = BMI of 30 or greater"</p>
+      <p>I was considered to by obese. Oof!</p>
       </div>
 
 
