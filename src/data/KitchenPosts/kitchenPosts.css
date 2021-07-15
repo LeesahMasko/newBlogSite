@@ -40,8 +40,8 @@
 }
 .postImageContainer img{
     width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
+    border: solid white 10px;
+    background-color: #f5f3e6
 }
 
 .postImageContainerRight{
@@ -60,7 +60,7 @@
  }
 
 .postImageContainerRight img{
-    width: 45%;
+    max-width: 100%;
     border: solid white 10px;
 }
 
