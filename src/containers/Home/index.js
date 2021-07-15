@@ -10,7 +10,10 @@ const Home = props=> {
                 <p>This site isn't going to contain anything ground breaking, it will be a collections of worthwile physical and mental exercise as well as advice and guidance for nutrition.</p>
             </div>
             <div className="tripleBoxes">
-                <div className="leftComponent">left</div>
+                <div className="leftComponent">
+                    <p>Food can be magical!</p>
+                    <p>It can make us feel euphoric.</p>
+                </div>
                 <div className="middleComponent">
                     middle
                 </div>
