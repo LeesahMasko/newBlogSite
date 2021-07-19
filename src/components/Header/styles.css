@@ -16,3 +16,35 @@
 .headerMenu a:hover{
     color: #5f9ea0;
 }
+
+.headerMenu{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.headerMenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   display: inline-block;
+   text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+}
+
+.headerMenu a{
+   list-style: none;
+   display: inline-block;
+   text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #565673;
+    padding: 0 10px;
+}
+
+
+
+/* .navbar ul li a:hover{
+    color: #5f9ea0; */

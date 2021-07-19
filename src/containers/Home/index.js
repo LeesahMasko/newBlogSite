@@ -15,10 +15,10 @@ const Home = props=> {
                     <p>It can make us feel euphoric.</p>
                 </div>
                 <div className="middleComponent">
-                    middle
+                    Our physcal fitness is something that shouldn't be ignored.  Even thought we often do.  Having a goal to work towards is a good way to start.
                 </div>
                 <div className="rightComponent">
-                    right
+                    All three of these paths need to be walked.  You can't have a life that is...
                 </div>
             </div>
 

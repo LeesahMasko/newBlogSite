@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './styles.css';
 
 /**
@@ -9,11 +10,25 @@ import './styles.css';
 const Header = (props) => {
   return(
     <header className="header">
-        <nav className="headerMenu">
-            <a href="#">Home</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact</a>
-        </nav>
+        {/* <nav className="headerMenu"> */}
+          {/* <a <NavLink to="/kitchen-posts">Into the Kitchen</NavLink></a>
+            <div className="navbar"> */}
+            <div className="headerMenu">
+          <ul>
+            <a><NavLink to="/kitchen-posts">Home</NavLink></a>
+            <a><NavLink to="/">About 3 Paths</NavLink></a>
+            <a><NavLink to="/fitness-posts">Contact</NavLink></a>
+        </ul>
+        </div>
+        {/* <div className="headerMenu">
+          <ul>
+            <li><NavLink to="/kitchen-posts">Home</NavLink></li>
+            <li><NavLink to="/">About 3 Paths</NavLink></li>
+            <li><NavLink to="/fitness-posts">Contact</NavLink></li>
+        </ul>
+        </div> */}
+
+        {/* </nav> */}
         <div>
             social media links to come
         </div>
