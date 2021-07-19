@@ -16,7 +16,7 @@
     color: #565673;
     font-size: 15px;
     letter-spacing: 1.2px;
-    border: 2px solid #d9d9d9;
+    /* border: 2px solid #d9d9d9; */
     text-align: center;
     background-color: white
 
@@ -31,36 +31,39 @@
 }
 
 .leftComponent{
-border-bottom: 2px solid #d9d9d9;
+/* border-bottom: 2px solid #d9d9d9;
 border-left: 2px solid #d9d9d9;
-border-right: 1px solid #d9d9d9;
+border-right: 1px solid #d9d9d9; */
 width: 40%;
 background-color: #f5f3e6;
 color: #565673;
 font-size: 12px;
 letter-spacing: 1.2px;
+padding: 0px 10px;
 }
 
 .middleComponent{
-border-bottom: 2px solid #d9d9d9;
+/* border-bottom: 2px solid #d9d9d9;
 border-left: 1px solid #d9d9d9;
-border-right: 1px solid #d9d9d9;
+border-right: 1px solid #d9d9d9; */
 width: 40%;
 background-color: #e6f0f5;
 color: #565673;
 font-size: 12px;
 letter-spacing: 1.2px;
+padding: 0px 10px;
 
 }
 
 .rightComponent{
     padding: 5px;
-border-bottom: 2px solid #d9d9d9;
+/* border-bottom: 2px solid #d9d9d9;
 border-left: 1px solid #d9d9d9;
-border-right: 1px solid #d9d9d9;
+border-right: 1px solid #d9d9d9; */
 width: 40%;
 background-color: #ebf5ee;
 color: #565673;
 font-size: 12px;
 letter-spacing: 1.2px;
+padding: 0px 10px;
 }
