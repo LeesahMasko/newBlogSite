@@ -12,8 +12,7 @@ const Home = props=> {
             <div className="tripleBoxes">
                 <div className="leftComponent">
                     <p>Food can be magical!</p>
-                    <p>It can make us feel euphoric.</p>
-                    <p>It can also be the avenue for some </p>
+                    <p>It can make us feel euphoric. It can also be the avenue that took us somewhere that we no longer want to be. </p>
                 </div>
                 <div className="middleComponent">
                     Our physcal fitness is something that shouldn't be ignored.  Even thought we often do.  Having a goal to work towards is a good way to start.
