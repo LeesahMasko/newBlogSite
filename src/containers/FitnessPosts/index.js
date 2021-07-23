@@ -1,8 +1,13 @@
 import React from 'react';
+
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 import Blog_Post from '../../components/BlogPost';
 import SideBar from '../../components/SideBar';
 import Card from '../../components/UI/Card';
 import './styles.css';
+import FitPost_1 from '../../data/FitnessPosts/fitPost_1';
+import FitPost_2 from '../../data/FitnessPosts/fitPost_2';
 
 /**
 * @author
@@ -10,25 +15,24 @@ import './styles.css';
 **/
 
 const FitnessPosts = (props) => {
-  return(
+
+return(
     <div className="container">
     <Card style={{width: "70%"}}>
-        <div className="blogHeaderFit">
-      <span className="blogCategory">Fitness blog post</span>
-      <h1 className="postTitle">First fitness blog post</h1>
-      <span className="postByandDate"> posted on date</span>
-      </div>
-      <div className="postImageContainer">
-          <img className="fitnessImage" src='../../../BlogPostImages/Fitness.jpg' alt="woman jogging"/>
-      </div>
-      <div className="postContent">
-          <h3>Post Title</h3>
-          <p>Exercise is not to be skipped :)</p>
-      </div>
-    </Card>
+
+    <Router>
+      <Route path="/fitness-posts" component={FitPost_1} />
+      <div className="betweenPosts"></div>
+      <Route path="/fitness-posts" component={FitPost_2} />
+      </Router>
+      </Card>
+
+
+
+
+
     <SideBar />
     </div>
    )
 }
-
 export default FitnessPosts
