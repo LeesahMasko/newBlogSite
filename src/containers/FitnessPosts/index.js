@@ -8,6 +8,7 @@ import Card from '../../components/UI/Card';
 import './styles.css';
 import FitPost_1 from '../../data/FitnessPosts/fitPost_1';
 import FitPost_2 from '../../data/FitnessPosts/fitPost_2';
+import SideBar_Fit from '../../data/SideBar_Posts/sideBar_Fit';
 
 /**
 * @author
@@ -31,7 +32,9 @@ return(
 
 
 
-    <SideBar />
+    <SideBar>
+    <Route path="/sideBar-posts" component={SideBar_Fit} />
+    </SideBar>
     </div>
    )
 }

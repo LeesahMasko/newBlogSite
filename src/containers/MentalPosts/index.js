@@ -5,6 +5,7 @@ import Blog_Post from '../../components/BlogPost';
 import SideBar from '../../components/SideBar';
 import Card from '../../components/UI/Card';
 import './styles.css';
+import SideBar_Men from '../../data/SideBar_Posts/sideBar_Men';
 
 /**
 * @author
@@ -24,7 +25,9 @@ const MentalPosts = (props) => {
           <img className="mindfullnessImage" src='../../../BlogPostImages/mental.jpg' alt="calm waters multi-colored skies"/>
       </div>
     </Card>
-    <SideBar />
+    <SideBar>
+    <Route path="/sideBar-posts" component={SideBar_Men} />
+    </SideBar>
     </div>
    )
 }

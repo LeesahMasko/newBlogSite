@@ -12,7 +12,7 @@ const SideBar = (props) => {
       <div className="sidebarContainer">
     <Card style={{marginBottom: '20px'}}>
         <div className="sidebarHeader">
-            <span>Our Purpose</span>
+            <span>Our Purposes</span>
 
         </div>
         <div className="aboutUsImage">

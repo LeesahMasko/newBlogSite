@@ -6,6 +6,7 @@ import Card from '../../components/UI/Card';
 import './styles.css';
 import KitPost_1 from '../../data/KitchenPosts/kitPost_1';
 import KitPost_2 from '../../data/KitchenPosts/kitPost_2';
+import SideBar_Kit from '../../data/SideBar_Posts/sideBar_Kit';
 
 
 /**
@@ -30,7 +31,9 @@ return(
 
 
 
-    <SideBar />
+    {/* <SideBar>
+    <Route path="/sideBar-postsKit" component={SideBar_Kit} />
+    </SideBar> */}
     </div>
    )
 }

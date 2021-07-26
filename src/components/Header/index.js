@@ -15,9 +15,8 @@ const Header = (props) => {
             <div className="navbar"> */}
             <div className="headerMenu">
           <ul>
-            <a><NavLink to="/kitchen-posts">Home</NavLink></a>
-            <a><NavLink to="/">About 3 Paths</NavLink></a>
-            <a><NavLink to="/fitness-posts">Contact</NavLink></a>
+            <a><NavLink to="/">Home</NavLink></a>
+
         </ul>
         </div>
         {/* <div className="headerMenu">

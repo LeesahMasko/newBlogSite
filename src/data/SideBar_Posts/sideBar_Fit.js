@@ -1,18 +1,18 @@
 import React from 'react'
-import Card from '../UI/Card';
+import Card from '../../components/UI/Card';
 import './styles.css'
 
 /**
 * @author
-* @function SideBar
+* @function SideBar_Fit
 **/
 
-const SideBar = (props) => {
+const SideBar_Fit = (props) => {
   return(
       <div className="sidebarContainer">
     <Card style={{marginBottom: '20px'}}>
         <div className="sidebarHeader">
-            <span>Our Purpose</span>
+            <span>Fitness!</span>
 
         </div>
         <div className="aboutUsImage">
@@ -58,4 +58,4 @@ const SideBar = (props) => {
 
  }
 
-export default SideBar
+export default SideBar_Fit
