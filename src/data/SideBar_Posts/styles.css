@@ -1,0 +1,64 @@
+.sidebarContainer{
+    width:27%;
+
+}
+
+.sidebarHeader{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    letter-spacing: 1.5px;
+    color: #565673;
+
+}
+.aboutUsImage{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.aboutUsImage img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cardBody{
+    font-size: 14px;
+    color: #6c6c6c;
+    padding: 10px;
+
+}
+
+.cardBody h3{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: border-box;
+    letter-spacing: 1.5px;
+    color: #6c6c6c;
+    margin: 0;
+}
+
+.recentPost h3{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #6c6c6c;
+    margin: 0;
+}
+
+.recentPost span{
+    font-size: 12px;
+    font-style:italic;
+    color: #6c6c6c;
+}
+
+.recentPost{
+    border-bottom: 1px solid #6c6c6c;
+    margin-bottom: 10px;
+}
+.recentPosts{
+    padding: 20px 0;
+}
