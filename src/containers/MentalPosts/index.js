@@ -26,7 +26,9 @@ const MentalPosts = (props) => {
       </div>
     </Card>
     <SideBar>
+
     <Route path="/sideBar-posts" component={SideBar_Men} />
+
     </SideBar>
     </div>
    )
