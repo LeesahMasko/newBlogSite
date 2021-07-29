@@ -24,6 +24,7 @@ const SideBar = (props) => {
 
     }
   return(
+      whichSideBar
 
    )
 
@@ -32,4 +33,4 @@ const SideBar = (props) => {
 export default SideBar
 
 
-//check to see which tab is active.  depending on what tab is active, have the associated sidebar display
+//  I need some sort of function that checks to see which tab is active and displays the associated sidebar. check to see which tab is active.  depending on what tab is active, have the associated sidebar display
